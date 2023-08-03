@@ -1,0 +1,660 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  background-color: #4C1CA4;
+  font-family: sans-serif;
+}
+nav .navigation {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  margin: 30px;
+  color: white;
+}
+nav .navigation li{
+  display: inline;
+  margin: 10px;
+  list-style: none;
+}
+nav .navigation li a{
+  text-decoration: none;
+  color: white;
+}
+nav .navigation .button .btn1{
+  margin-right: 20px;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+nav .navigation .button .btn2{
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: rgb(221, 221, 13);
+  color: black;
+  border-color: white;
+}
+.top {
+ /* `background-image: url('elscolator.jpg'); */
+  padding-top: 80px;
+  width: ;
+  height: 800px;
+  background-color: white;
+  display: grid;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+.top img{
+  position: absolute;
+  margin-top: -500px;
+  border-radius: 100px;
+
+}
+.h {
+  margin: 30px;
+  font-weight: bold;
+  font-size: 100px;
+  width: 600px;
+  z-index: 1;
+  position: relative;
+}
+.top p{
+  margin: 30px;
+  width: 300px;
+  position: relative;
+  z-index: 1;
+}
+.top .button{
+  position: relative;
+  z-index: 1;
+}
+.top .button .btn1{
+  margin-left: 30px;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: #4C1CA4;
+  color: rgb(221, 221, 13);
+}
+.top .button .btn2{
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: rgb(190, 195, 199);
+}
+.list{
+  display: flex;
+  height: 250px;
+  background-color: white;
+  position: relative;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding-bottom:80px ;
+}
+.list .li{
+  margin-left: 30px;
+  margin: 50px;
+}
+.li h2{
+  font-size: 40px;
+}
+.li h1{
+  font-size: 50px;
+  color: #4C1CA4;
+  margin: 5px 0px;
+}
+.para p{
+  text-align: left;
+  /* display: flex; */
+  width: 800px;
+  font-size: 40px;
+  justify-content: center;
+  margin: 150px 250px 0px;
+  color: rgba(233, 231, 237,.4);
+}
+.para p::first-line{ 
+  color: white;
+}
+.para .btn{
+  margin-left: 30px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: rgba(228, 219, 247, 0.831);;
+  border-color: rgba(230, 228, 235, 0.4);;
+  padding: 15px 50px;
+  margin:50px 0px 0px 250px;
+}
+.para .spa{
+  background-color: rgba(233, 231, 237, .8);
+  height: 60px;
+  border-radius: 8px;
+  margin-top: 340px;
+}
+.mid{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 100px;
+  margin: 200px 0px;
+  padding: 50px 0px;
+}
+.mid .focus{
+  width: 50%;
+  text-align: left;
+  margin: 150px 50px;
+}
+.mid .focus h3{
+  font-size: 50px;
+}
+.mid .focus p{
+  width: 400px;
+}
+.mid .focus i{
+  background-color: yellow;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50%;
+  float: left;
+}
+.mid .focus #i{
+  background-color: rgba(190, 195, 199,.3);
+  color: rgb(190, 195, 199);
+  border-color: rgb(190, 195, 199);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50%;
+}
+.fle{
+  display: flex;
+  width: 50%;
+}
+.fle img{
+  border-radius: 30px;
+  position: relative;
+  margin: 20px;
+}
+.fle .fle1{
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  border-radius: 20px;
+  margin: 350px 0px 300px 60px;
+  padding: 10px;
+}
+.fle1 h5{
+  font-size: 18px;
+  margin: 5px;
+  padding-top: 10px;
+}
+.fle1 p{
+  font-size: 14px;
+  padding: 10px;
+  text-align: left;
+}
+.fle1 i{
+  background-color: yellow;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50%;
+  float: left;
+}
+.listen{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* background-color: white;
+  border-radius: 100px; */
+  margin: 200px 0px 0px;
+  padding: 50px 100px;
+  color: white;
+}
+.lst{
+  display: grid;
+}
+.lst img{
+  border-radius: 30px;
+  position: relative;
+}
+.lst .lst1{
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  border-radius: 30px;
+  margin: 500px 50px 0px;
+  color: black;
+  height: 150px;
+}
+.lst1 h5{
+  font-size: 18px;
+  margin: 5px;
+  padding-top: 10px;
+}
+.listen .lst .lst1 i{
+  background-color: yellow;
+  margin: 10px 0px 10px 10px;
+  padding: 15px;
+  border-radius: 50%;
+  float: left;
+}
+.listen .lstn{
+  width: 600px;
+  text-align: left;
+  margin: 150px 100px;
+}
+.listen .lstn h3{
+  font-size: 50px;
+}
+.listen .lstn p{
+  width: 400px;
+  color: rgba(255, 255, 255, .5);
+  margin: 20px 0px;
+}
+.listen .lstn .btn{
+  padding: 15px 50px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 25px;
+  border-color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .7);
+}
+.items{
+  background-color: white;
+  border-radius: 100px;
+  margin: 180px 0px;
+  padding: 50px 0px;
+}
+.items .first{
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-between;
+  margin: 50px;
+}
+.items .first .over {
+  width: 50%;
+  text-align: left;
+  float: left;
+}
+.items .first .over h1 {
+  font-size: 40px;
+}
+.items .first .over p{
+  margin-top: 15px;
+}
+.items .first .book {
+  width: 50%;
+}
+.items .first .book{
+  margin-top: 200px;
+  font-size: 30px;
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 30%;
+}
+.items .second{
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-between;
+  margin: 50px;
+}
+.items .second .over {
+  width: 45%;
+  text-align: left;
+  float: left;
+  background-color: rgba(190, 195, 199,.3);
+  padding: 20px;
+  border-radius: 20px;
+}
+.items .second .over h1 {
+  font-size: 25px;
+}
+.items .second .over p{
+  margin-top: 15px;
+}
+.items .second .book {
+  width: 50%;
+}
+.items .second .book{
+  margin-top: 150px;
+  font-size: 30px;
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 30%;
+}
+.resourse{
+  margin-top: -100px;
+}
+.resourse .head{
+  display: flex;
+  margin-bottom:50px;
+  color: white;
+}
+.resourse .head h4{
+  width: 50%;
+  margin-left: 200px;
+  font-size: 25px
+  
+}
+.resourse .head div{
+  width: 50%;
+  padding-left: 200px;
+  font-size: 25px;
+}
+.resourse .head i{
+  background-color: yellow;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50%;
+  color: black;
+  font-size: 16px;
+}
+.resourse .head #i{
+  background-color: rgba(190, 195, 199,.3);
+  color: rgb(190, 195, 199);
+  border-color: rgb(190, 195, 199);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 50%;
+}
+.resourse .body ul{
+  display: flex;
+  list-style: none;
+  margin: 10px 0px 50px 170px;
+}
+.resourse .body li a{
+  text-decoration: none;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  background-color: rgba(190, 195, 199,.2);
+  color: rgb(190, 195, 199);
+  border-color: rgb(190, 195, 199);
+  border-radius: 20px;
+  font-size: 12px;
+}
+.resourse .body #art{
+  text-decoration: none;
+  margin: -5px 10px;
+  padding: 10px 0px;
+  color: black;
+  border-radius: 20px;
+  font-size: 12px;
+  background-color: yellow;
+}
+.resourse .foot{
+  display: flex;
+}
+.foot{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-top: -20px;
+}
+.left{
+  display: grid;
+  margin: 30px 12px;
+}
+.left img{
+  border-radius: 30px;
+  position: relative;
+}
+.foot .left div{
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  border-radius: 30px;
+  margin: 320px 60px 0px;
+  color: black;
+  height: 120px;
+  padding: 15px;
+  text-align: left;
+  font-size: 12px;
+}
+.foot .left div h4{
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.right{
+  display: grid;
+  margin: 30px 12px;
+}
+.right img{
+  border-radius: 30px;
+  position: relative;
+}
+.foot .right div{
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  border-radius: 30px;
+  margin: 320px 60px 0px;
+  color: black;
+  height: 120px;
+  padding: 15px;
+  text-align: left;
+  font-size: 12px;
+}
+.foot .right div h4{
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.question{
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 100px;
+  padding: 50px 0px;
+}
+.question .up{
+  text-align: center;
+}
+.question .up h4{
+  font-size: 25px;
+  margin: 20px;
+}
+.question .up h1{
+  font-size: 30px;
+}
+.question .up img{
+  width: 100%;
+  height: 400px;
+  margin: 50px 0px;
+}
+.question .quest{
+  padding: 0px 50px;
+  display: flex;
+}
+.question .quest .lef{
+  width: 50%;
+  padding: 50px;
+}
+.question .quest .lef h1{
+  font-size: 40px;
+}
+.question .quest .lef button{
+  margin-top: 25px;
+  font-size: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: rgb(247, 247, 53);
+  border: none;
+  font-weight: bold;
+}
+.question .quest .righ{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.question .quest .righ button{
+  margin: 10px -100px;
+  padding: 30px 0px 30px 50px;
+  border-radius: 20px;
+  border: none;
+  text-align: left;
+  width: 500px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.contact{
+  margin: 100px;
+  color: white;
+}
+.contact .t{
+  display: flex;
+}
+.contact .t .tl{
+  width: 50%;
+  margin-top: 100px;
+}
+.contact .t .tl h2{
+  font-size: 35px;
+}
+.contact .t .tl p{
+  margin-top: 20px;
+  font-size: 12px;
+  color:rgba(255, 255, 255, .5);
+}
+.contact .t .tr{
+  width: 50%;
+  display: grid;
+  justify-content: center;
+}
+.contact .b{
+  display: flex;
+  margin-top: 50px;
+}
+.contact .b .bl{
+  width: 50%;
+}
+.contact .b .bl h4{
+  font-size: 20px;
+}
+.contact .b .bl .add{
+  background-color: white;
+  border-radius: 20px;
+  color: rgb(75, 74, 74);
+  padding: 15px;
+  font-size: 12px;
+  margin: 15px 0px;
+  width: 350px;
+}
+.contact .b .bl .add p{
+  margin: 10px;
+}
+.contact .b .bl .add .loc{
+  background-image: url("location.png");
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 12px;
+}
+.contact .b .bl .btn{
+  font-size: 12px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(237, 237, 46);
+  font-weight: bold;
+}
+.contact .b .br{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.contact .b .br .brf{
+  margin: 15px 0px;
+  color: rgb(75, 74, 74);
+}
+.contact .b .br .brf .mail{
+  /* padding: 20px 200px 20px 20px; */
+  width: 350px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  background-color: white;
+  border: none;
+}
+.contact .b .br .brf .message{
+  width: 350px;
+  padding: 20px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+}
+.contact .b .br .btn{
+  font-size: 12px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(237, 237, 46);
+  font-weight: bold;
+}
+.footer{
+  background-color: rgba(10, 9, 9, 0.886);
+  color: rgb(148, 139, 139);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 50px 100px;
+  display: flex;
+}
+.footer .le{
+  width: 30%;
+}
+.footer .le h3{
+  font-size: 20px;
+  color: rgb(230, 227, 227);
+}
+.footer .le p{
+  margin: 20px 0px;
+}
+.footer .le .social i{
+  margin: 0px 10px;
+  color: rgb(230, 227, 227)
+}
+.footer .ri{
+  width: 70%;
+  display: flex;
+}
+.footer .ri .our{
+  margin-right: 75px;
+}
+.footer .ri .our h4{
+  color: rgb(230, 227, 227);
+  font-size: 12px;
+}
+.footer .ri .our li{
+  margin-top: 10px;
+  list-style: none;
+  font-size: 10px;
+}
+.buttm{
+  background-color: rgba(10, 9, 9, 0.886);
+  color: rgb(148, 139, 139);
+  font-size: 10px;
+  font-weight: bold;
+}
+.buttm ul{
+  display: flex;
+  padding: 0px 100px;
+}
+.buttm ul li{
+  margin: 0px 15px 15px 0px;
+  list-style: none;
+}
+.buttm .copy{
+  margin: 0px 250px 0px 100px;
+}
+@media screen and (max-width:620px) {
+  body{
+    width: 100%;
+  }
+}
