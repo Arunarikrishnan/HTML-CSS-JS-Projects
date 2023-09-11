@@ -1,0 +1,1 @@
+This is a basic calculator with a simple user interface. It includes HTML for the structure, CSS for styling, and JavaScript for functionality. Users can input numbers and perform basic arithmetic operations (+, -, *, /), and the result will be displayed in the input field.
