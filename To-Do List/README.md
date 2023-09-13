@@ -1,0 +1,1 @@
+This code creates a simple to-do list application with basic styling. Users can add tasks by typing in the input field and clicking the "Add" button or pressing Enter. They can also delete tasks by clicking the "Delete" button next to each task.
